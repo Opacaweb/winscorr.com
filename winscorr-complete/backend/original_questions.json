@@ -1,0 +1,846 @@
+[
+  {
+    "id": "original_1",
+    "exam_type": "ssat-middle",
+    "question_type": "math",
+    "difficulty": "medium",
+    "concept": "algebra",
+    "question_text": "A number is multiplied by 4 and then increased by 9. The result is 37. What is the original number?",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "correct_answer": "7",
+    "explanation": "Let the number be x. Equation: 4x + 9 = 37 →4x = 28 u8594  x = 7."
+  },
+  {
+    "id": "original_2",
+    "exam_type": "ssat-middle",
+    "question_type": "math",
+    "difficulty": "medium",
+    "concept": "fractions",
+    "question_text": "Which of the following is closest to the value of 7/8 + 5/12?",
+    "options": [
+      "1.1",
+      "1.2",
+      "1.3",
+      "1.4",
+      "1.5"
+    ],
+    "correct_answer": "1.3",
+    "explanation": "7/8 = 0.875, 5/12 ≈0.417. Sum = 1.292 u8776  1.3."
+  },
+  {
+    "id": "original_3",
+    "exam_type": "ssat-middle",
+    "question_type": "math",
+    "difficulty": "hard",
+    "concept": "geometry",
+    "question_text": "A rectangle has a perimeter of 54 cm. If the length is 5 cm more than the width, what is the area of the rectangle?",
+    "options": [
+      "150 cm²",
+      "176 cm²",
+      "180 cm²",
+      "192 cm²",
+      "200 cm²"
+    ],
+    "correct_answer": "176 cm²",
+    "explanation": "Let width = w, length = w+5. Perimeter: 2(w + w+5) = 54 →4w + 10 = 54 u8594  w = 11, l = 16. Area = 11 × 16 = 176 cm²."
+  },
+  {
+    "id": "original_4",
+    "exam_type": "ssat-middle",
+    "question_type": "math",
+    "difficulty": "easy",
+    "concept": "algebra",
+    "question_text": "If 3x - 7 = 2x + 11, what is the value of x?",
+    "options": [
+      "18",
+      "19",
+      "20",
+      "21",
+      "22"
+    ],
+    "correct_answer": "18",
+    "explanation": "3x - 7 = 2x + 11 →3x - 2x = 11 + 7 u8594  x = 18."
+  },
+  {
+    "id": "original_5",
+    "exam_type": "ssat-middle",
+    "question_type": "math",
+    "difficulty": "easy",
+    "concept": "ratios",
+    "question_text": "A box contains only red and blue marbles. The ratio of red marbles to blue marbles is 3:5. If there are 24 red marbles, how many blue marbles are there?",
+    "options": [
+      "30",
+      "35",
+      "40",
+      "45",
+      "50"
+    ],
+    "correct_answer": "40",
+    "explanation": "Red:Blue = 3:5. 3 parts = 24 marbles, so 1 part = 8 marbles. Blue = 5 parts = 5 × 8 = 40 marbles."
+  },
+  {
+    "id": "original_6",
+    "exam_type": "ssat-middle",
+    "question_type": "math",
+    "difficulty": "medium",
+    "concept": "number_theory",
+    "question_text": "What is the smallest positive integer that is divisible by both 6 and 9?",
+    "options": [
+      "18",
+      "24",
+      "27",
+      "36",
+      "54"
+    ],
+    "correct_answer": "18",
+    "explanation": "Find LCM of 6 and 9. Multiples of 6: 6, 12, 18, 24... Multiples of 9: 9, 18, 27... LCM = 18."
+  },
+  {
+    "id": "original_7",
+    "exam_type": "ssat-middle",
+    "question_type": "math",
+    "difficulty": "easy",
+    "concept": "geometry",
+    "question_text": "A triangle has two angles measuring 38° and 71°. What is the measure of the third angle?",
+    "options": [
+      "61°",
+      "71°",
+      "81°",
+      "91°",
+      "101°"
+    ],
+    "correct_answer": "71°",
+    "explanation": "Sum of angles in triangle = 180°. 180 - 38 - 71 = 71°."
+  },
+  {
+    "id": "original_8",
+    "exam_type": "ssat-middle",
+    "question_type": "math",
+    "difficulty": "easy",
+    "concept": "exponents",
+    "question_text": "If 2^n = 32, what is the value of n?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "correct_answer": "5",
+    "explanation": "32 = 2^5, so n = 5."
+  },
+  {
+    "id": "original_9",
+    "exam_type": "ssat-middle",
+    "question_type": "math",
+    "difficulty": "medium",
+    "concept": "percentages",
+    "question_text": "A store increases the price of a jacket from $40 to $50. What is the percent increase?",
+    "options": [
+      "20%",
+      "25%",
+      "30%",
+      "35%",
+      "40%"
+    ],
+    "correct_answer": "25%",
+    "explanation": "Increase = $50 - $40 = $10. Percent increase = (10/40) × 100 = 25%."
+  },
+  {
+    "id": "original_10",
+    "exam_type": "ssat-middle",
+    "question_type": "math",
+    "difficulty": "medium",
+    "concept": "number_sense",
+    "question_text": "Which number has the greatest value?",
+    "options": [
+      "0.62",
+      "3/5",
+      "0.36",
+      "2/3"
+    ],
+    "correct_answer": "2/3",
+    "explanation": "Convert all to decimals: 0.62, 0.60, 0.36, 0.666... 2/3 ≈0.667 is greatest."
+  },
+  {
+    "id": "original_11",
+    "exam_type": "ssat-middle",
+    "question_type": "math",
+    "difficulty": "medium",
+    "concept": "averages",
+    "question_text": "The average of four numbers is 18. Three of the numbers are 10, 16, and 24. What is the fourth number?",
+    "options": [
+      "18",
+      "20",
+      "22",
+      "24",
+      "26"
+    ],
+    "correct_answer": "22",
+    "explanation": "Total of 4 numbers = 18 × 4 = 72. Sum of known three = 10 + 16 + 24 = 50. Fourth number = 72 - 50 = 22."
+  },
+  {
+    "id": "original_12",
+    "exam_type": "ssat-middle",
+    "question_type": "math",
+    "difficulty": "easy",
+    "concept": "geometry",
+    "question_text": "A square has an area of 81 square inches. What is the perimeter of the square?",
+    "options": [
+      "27 in",
+      "32 in",
+      "36 in",
+      "40 in",
+      "45 in"
+    ],
+    "correct_answer": "36 in",
+    "explanation": "Side length = √81 = 9 inches. Perimeter = 4 × 9 = 36 inches."
+  },
+  {
+    "id": "original_13",
+    "exam_type": "ssat-middle",
+    "question_type": "math",
+    "difficulty": "easy",
+    "concept": "algebra",
+    "question_text": "If x = 4, what is the value of 5x² - 3x + 2?",
+    "options": [
+      "70",
+      "72",
+      "74",
+      "76",
+      "78"
+    ],
+    "correct_answer": "70",
+    "explanation": "5(4)² - 3(4) + 2 = 5(16) - 12 + 2 = 80 - 12 + 2 = 70."
+  },
+  {
+    "id": "original_14",
+    "exam_type": "ssat-middle",
+    "question_type": "math",
+    "difficulty": "easy",
+    "concept": "ratios",
+    "question_text": "A car travels 180 miles in 3 hours at a constant speed. How many miles will it travel in 5 hours at the same speed?",
+    "options": [
+      "280",
+      "290",
+      "300",
+      "310",
+      "320"
+    ],
+    "correct_answer": "300",
+    "explanation": "Speed = 180 ÷ 3 = 60 mph. Distance in 5 hours = 60 × 5 = 300 miles."
+  },
+  {
+    "id": "original_15",
+    "exam_type": "ssat-middle",
+    "question_type": "math",
+    "difficulty": "easy",
+    "concept": "fractions",
+    "question_text": "What fraction of an hour is 35 minutes?",
+    "options": [
+      "5/12",
+      "7/12",
+      "3/5",
+      "2/3",
+      "5/7"
+    ],
+    "correct_answer": "7/12",
+    "explanation": "35/60 = 7/12 (simplify by dividing numerator and denominator by 5)."
+  },
+  {
+    "id": "original_16",
+    "exam_type": "ssat-middle",
+    "question_type": "math",
+    "difficulty": "medium",
+    "concept": "percentages",
+    "question_text": "A number is decreased by 20%, resulting in 48. What was the original number?",
+    "options": [
+      "50",
+      "55",
+      "60",
+      "65",
+      "70"
+    ],
+    "correct_answer": "60",
+    "explanation": "Let original = x. x - 0.20x = 48 →0.80x = 48 u8594  x = 48 ÷ 0.80 = 60."
+  },
+  {
+    "id": "original_17",
+    "exam_type": "ssat-middle",
+    "question_type": "math",
+    "difficulty": "medium",
+    "concept": "number_theory",
+    "question_text": "How many prime numbers are between 10 and 30?",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correct_answer": "6",
+    "explanation": "Primes: 11, 13, 17, 19, 23, 29. That's 6 prime numbers."
+  },
+  {
+    "id": "original_18",
+    "exam_type": "ssat-middle",
+    "question_type": "math",
+    "difficulty": "easy",
+    "concept": "geometry",
+    "question_text": "A circle has a radius of 7 cm. Which expression represents its circumference?",
+    "options": [
+      "14uc0u960 ",
+      "7u960 ²",
+      "49u960 ",
+      "28u960 "
+    ],
+    "correct_answer": "14uc0u960 ",
+    "explanation": "Circumference = 2uc0u960 r = 2 × u960  × 7 = 14u960  cm."
+  },
+  {
+    "id": "original_19",
+    "exam_type": "ssat-middle",
+    "question_type": "math",
+    "difficulty": "medium",
+    "concept": "algebra",
+    "question_text": "If 4/x = 2/5, what is the value of x?",
+    "options": [
+      "8",
+      "10",
+      "12",
+      "14",
+      "16"
+    ],
+    "correct_answer": "10",
+    "explanation": "Cross multiply: 4 × 5 = 2 × x →20 = 2x u8594  x = 10."
+  },
+  {
+    "id": "original_20",
+    "exam_type": "ssat-middle",
+    "question_type": "math",
+    "difficulty": "medium",
+    "concept": "percentages",
+    "question_text": "A book costs $12 after a 25% discount. What was the original price?",
+    "options": [
+      "$14",
+      "$15",
+      "$16",
+      "$17",
+      "$18"
+    ],
+    "correct_answer": "$16",
+    "explanation": "Let original = x. x - 0.25x = 12 →0.75x = 12 u8594  x = 12 ÷ 0.75 = 16."
+  },
+  {
+    "id": "original_21",
+    "exam_type": "ssat-middle",
+    "question_type": "math",
+    "difficulty": "medium",
+    "concept": "algebra",
+    "question_text": "The sum of three consecutive integers is 72. What is the smallest of the three integers?",
+    "options": [
+      "22",
+      "23",
+      "24",
+      "25",
+      "26"
+    ],
+    "correct_answer": "23",
+    "explanation": "Let numbers be x, x+1, x+2. x + (x+1) + (x+2) = 72 →3x + 3 = 72 u8594  3x = 69 u8594  x = 23."
+  },
+  {
+    "id": "original_22",
+    "exam_type": "ssat-middle",
+    "question_type": "math",
+    "difficulty": "easy",
+    "concept": "fractions",
+    "question_text": "Which of the following fractions is equivalent to 0.375?",
+    "options": [
+      "3/8",
+      "2/5",
+      "5/12",
+      "4/9",
+      "7/16"
+    ],
+    "correct_answer": "3/8",
+    "explanation": "0.375 = 375/1000 = 3/8 (divide numerator and denominator by 125)."
+  },
+  {
+    "id": "original_23",
+    "exam_type": "ssat-middle",
+    "question_type": "math",
+    "difficulty": "easy",
+    "concept": "geometry",
+    "question_text": "A right angle is divided into two angles. One angle is twice as large as the other. What is the measure of the smaller angle?",
+    "options": [
+      "20°",
+      "30°",
+      "40°",
+      "50°",
+      "60°"
+    ],
+    "correct_answer": "30°",
+    "explanation": "Right angle = 90°. Let smaller = x, larger = 2x. x + 2x = 90 →3x = 90 u8594  x = 30°."
+  },
+  {
+    "id": "original_24",
+    "exam_type": "ssat-middle",
+    "question_type": "math",
+    "difficulty": "medium",
+    "concept": "number_sense",
+    "question_text": "If a number is rounded to the nearest hundred and becomes 3,200, which of the following could be the original number?",
+    "options": [
+      "3,149",
+      "3,150",
+      "3,249",
+      "3,250",
+      "3,251"
+    ],
+    "correct_answer": "3,249",
+    "explanation": "3,249 rounds to 3,200 (nearest hundred). 3,150 rounds to 3,200, but 3,150 is exactly halfway and typically rounds up to 3,200."
+  },
+  {
+    "id": "original_25",
+    "exam_type": "ssat-middle",
+    "question_type": "math",
+    "difficulty": "easy",
+    "concept": "geometry",
+    "question_text": "A cube has an edge length of 4 cm. What is its volume?",
+    "options": [
+      "16 cm'b3",
+      "32 cm'b3",
+      "48 cm'b3",
+      "64 cm'b3",
+      "96 cm'b3"
+    ],
+    "correct_answer": "64 cm'b3",
+    "explanation": "Volume = side'b3 = 4'b3 = 64 cm'b3."
+  },
+  {
+    "id": "original_26",
+    "exam_type": "ssat-middle",
+    "question_type": "math",
+    "difficulty": "medium",
+    "concept": "fractions",
+    "question_text": "What is the value of 3/4 ÷ 2/5?",
+    "options": [
+      "15/8",
+      "8/15",
+      "6/20",
+      "5/6",
+      "3/10"
+    ],
+    "correct_answer": "15/8",
+    "explanation": "3/4 ÷ 2/5 = 3/4 × 5/2 = 15/8."
+  },
+  {
+    "id": "original_27",
+    "exam_type": "ssat-middle",
+    "question_type": "math",
+    "difficulty": "medium",
+    "concept": "sequences",
+    "question_text": "A sequence starts with 2 and increases by 6 each time. What is the 8th term?",
+    "options": [
+      "44",
+      "46",
+      "48",
+      "50",
+      "52"
+    ],
+    "correct_answer": "44",
+    "explanation": "Arithmetic sequence: a_n = 2 + (n-1)×6. 8th term = 2 + (8-1)×6 = 2 + 42 = 44."
+  },
+  {
+    "id": "original_28",
+    "exam_type": "ssat-middle",
+    "question_type": "math",
+    "difficulty": "easy",
+    "concept": "algebra",
+    "question_text": "If y = 3x + 5, what is the value of y when x = -2?",
+    "options": [
+      "-1",
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correct_answer": "-1",
+    "explanation": "y = 3(-2) + 5 = -6 + 5 = -1."
+  },
+  {
+    "id": "original_29",
+    "exam_type": "ssat-middle",
+    "question_type": "math",
+    "difficulty": "medium",
+    "concept": "ratios",
+    "question_text": "The ratio of girls to boys in a class is 7:5. If there are 36 students total, how many girls are there?",
+    "options": [
+      "14",
+      "16",
+      "18",
+      "20",
+      "21"
+    ],
+    "correct_answer": "21",
+    "explanation": "Total parts = 7 + 5 = 12. 12 parts = 36 students, so 1 part = 3 students. Girls = 7 parts = 7 × 3 = 21."
+  },
+  {
+    "id": "original_30",
+    "exam_type": "ssat-middle",
+    "question_type": "math",
+    "difficulty": "medium",
+    "concept": "number_theory",
+    "question_text": "What is the least common multiple (LCM) of 12 and 18?",
+    "options": [
+      "24",
+      "36",
+      "48",
+      "60",
+      "72"
+    ],
+    "correct_answer": "36",
+    "explanation": "Prime factors: 12 = 2²×3, 18 = 2×3². LCM = 2²×3² = 4×9 = 36."
+  },
+  {
+    "id": "original_31",
+    "exam_type": "ssat-middle",
+    "question_type": "math",
+    "difficulty": "medium",
+    "concept": "geometry",
+    "question_text": "A polygon has 8 sides. What is the sum of its interior angles?",
+    "options": [
+      "720°",
+      "900°",
+      "1080°",
+      "1260°",
+      "1440°"
+    ],
+    "correct_answer": "1080°",
+    "explanation": "Sum = (n-2)×180° = (8-2)×180 = 6×180 = 1080°."
+  },
+  {
+    "id": "original_32",
+    "exam_type": "ssat-middle",
+    "question_type": "math",
+    "difficulty": "easy",
+    "concept": "number_theory",
+    "question_text": "Which number is a factor of both 48 and 60?",
+    "options": [
+      "8",
+      "10",
+      "12",
+      "15",
+      "18"
+    ],
+    "correct_answer": "12",
+    "explanation": "Factors of 48: 1,2,3,4,6,8,12,16,24,48. Factors of 60: 1,2,3,4,5,6,10,12,15,20,30,60. Common factors include 12."
+  },
+  {
+    "id": "original_33",
+    "exam_type": "ssat-middle",
+    "question_type": "math",
+    "difficulty": "medium",
+    "concept": "ratios",
+    "question_text": "A tank is filled at a constant rate. If it takes 6 minutes to fill 1/3 of the tank, how long will it take to fill the entire tank?",
+    "options": [
+      "12 min",
+      "15 min",
+      "18 min",
+      "21 min",
+      "24 min"
+    ],
+    "correct_answer": "18 min",
+    "explanation": "1/3 tank in 6 minutes →full tank = 3 × 6 = 18 minutes."
+  },
+  {
+    "id": "original_34",
+    "exam_type": "ssat-middle",
+    "question_type": "math",
+    "difficulty": "easy",
+    "concept": "exponents",
+    "question_text": "What is the value of 9² - 3'b3?",
+    "options": [
+      "54",
+      "56",
+      "58",
+      "60",
+      "62"
+    ],
+    "correct_answer": "54",
+    "explanation": "9² = 81, 3'b3 = 27. 81 - 27 = 54."
+  },
+  {
+    "id": "original_35",
+    "exam_type": "ssat-middle",
+    "question_type": "math",
+    "difficulty": "medium",
+    "concept": "percentages",
+    "question_text": "A store sells notebooks for $2 each. How much will 7 notebooks cost after a 10% discount?",
+    "options": [
+      "$11.60",
+      "$12.60",
+      "$13.60",
+      "$14.60",
+      "$15.60"
+    ],
+    "correct_answer": "$12.60",
+    "explanation": "Original price = 7 × $2 = $14. Discount = 10% of $14 = $1.40. Final price = $14 - $1.40 = $12.60."
+  },
+  {
+    "id": "original_36",
+    "exam_type": "ssat-middle",
+    "question_type": "math",
+    "difficulty": "easy",
+    "concept": "algebra",
+    "question_text": "Which expression represents 'five less than twice a number'?",
+    "options": [
+      "2x - 5",
+      "5 - 2x",
+      "2(x - 5)",
+      "5x - 2",
+      "2x + 5"
+    ],
+    "correct_answer": "2x - 5",
+    "explanation": "Twice a number = 2x. Five less than that = 2x - 5."
+  },
+  {
+    "id": "original_37",
+    "exam_type": "ssat-middle",
+    "question_type": "math",
+    "difficulty": "easy",
+    "concept": "geometry",
+    "question_text": "A triangle has side lengths 5 cm, 7 cm, and 10 cm. Is this triangle possible?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "correct_answer": "Yes",
+    "explanation": "Triangle inequality: 5 + 7 > 10 (12 > 10), 5 + 10 > 7 (15 > 7), 7 + 10 > 5 (17 > 5). All conditions satisfied, so triangle is possible."
+  },
+  {
+    "id": "original_38",
+    "exam_type": "ssat-middle",
+    "question_type": "math",
+    "difficulty": "medium",
+    "concept": "statistics",
+    "question_text": "What is the median of the following numbers: 4, 9, 2, 11, 7?",
+    "options": [
+      "4",
+      "6",
+      "7",
+      "9",
+      "11"
+    ],
+    "correct_answer": "7",
+    "explanation": "Sorted: 2, 4, 7, 9, 11. Middle number = 7."
+  },
+  {
+    "id": "original_39",
+    "exam_type": "ssat-middle",
+    "question_type": "math",
+    "difficulty": "easy",
+    "concept": "algebra",
+    "question_text": "If x + y = 15 and x = 9, what is the value of y?",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correct_answer": "6",
+    "explanation": "9 + y = 15 →y = 15 - 9 = 6."
+  },
+  {
+    "id": "original_40",
+    "exam_type": "ssat-middle",
+    "question_type": "math",
+    "difficulty": "easy",
+    "concept": "probability",
+    "question_text": "A die is rolled once. What is the probability of rolling an even number?",
+    "options": [
+      "1/6",
+      "1/3",
+      "1/2",
+      "2/3",
+      "5/6"
+    ],
+    "correct_answer": "1/2",
+    "explanation": "Even numbers: 2, 4, 6. 3 favorable outcomes out of 6 total. Probability = 3/6 = 1/2."
+  },
+  {
+    "id": "original_41",
+    "exam_type": "ssat-middle",
+    "question_type": "math",
+    "difficulty": "medium",
+    "concept": "fractions",
+    "question_text": "What is the value of 2 3/4 × 5?",
+    "options": [
+      "10 3/4",
+      "11 1/4",
+      "12 3/4",
+      "13 1/4",
+      "13 3/4"
+    ],
+    "correct_answer": "13 3/4",
+    "explanation": "2 3/4 = 11/4. 11/4 × 5 = 55/4 = 13 3/4."
+  },
+  {
+    "id": "original_42",
+    "exam_type": "ssat-middle",
+    "question_type": "math",
+    "difficulty": "easy",
+    "concept": "geometry",
+    "question_text": "A rectangle's length is doubled while its width stays the same. How does the area change?",
+    "options": [
+      "Doubles",
+      "Triples",
+      "Quadruples",
+      "Halves",
+      "Stays the same"
+    ],
+    "correct_answer": "Doubles",
+    "explanation": "Original area = l × w. New area = (2l) × w = 2(l × w) = twice original."
+  },
+  {
+    "id": "original_43",
+    "exam_type": "ssat-middle",
+    "question_type": "math",
+    "difficulty": "hard",
+    "concept": "number_theory",
+    "question_text": "Which of the following numbers is irrational?",
+    "options": [
+      "√4",
+      "u8730 9",
+      "u8730 16",
+      "u8730 25",
+      "u8730 2"
+    ],
+    "correct_answer": "√2",
+    "explanation": "√2 u8776  1.414... cannot be expressed as a fraction of integers. Others: u8730 4=2, u8730 9=3, u8730 16=4, u8730 25=5 are all rational."
+  },
+  {
+    "id": "original_44",
+    "exam_type": "ssat-middle",
+    "question_type": "math",
+    "difficulty": "easy",
+    "concept": "fractions",
+    "question_text": "A jar contains 5 green, 7 yellow, and 8 red candies. What fraction of the candies are yellow?",
+    "options": [
+      "5/20",
+      "7/20",
+      "8/20",
+      "7/12",
+      "5/12"
+    ],
+    "correct_answer": "7/20",
+    "explanation": "Total candies = 5 + 7 + 8 = 20. Yellow = 7. Fraction = 7/20."
+  },
+  {
+    "id": "original_45",
+    "exam_type": "ssat-middle",
+    "question_type": "math",
+    "difficulty": "easy",
+    "concept": "algebra",
+    "question_text": "The product of two numbers is 72. If one number is 8, what is the other number?",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "correct_answer": "9",
+    "explanation": "8 × ? = 72 →? = 72 ÷ 8 = 9."
+  },
+  {
+    "id": "original_46",
+    "exam_type": "ssat-middle",
+    "question_type": "math",
+    "difficulty": "medium",
+    "concept": "geometry",
+    "question_text": "How many degrees are there in the sum of the angles of a pentagon?",
+    "options": [
+      "360°",
+      "540°",
+      "720°",
+      "900°",
+      "1080°"
+    ],
+    "correct_answer": "540°",
+    "explanation": "Pentagon has 5 sides. Sum = (5-2)×180° = 3×180 = 540°."
+  },
+  {
+    "id": "original_47",
+    "exam_type": "ssat-middle",
+    "question_type": "math",
+    "difficulty": "medium",
+    "concept": "algebra",
+    "question_text": "A number is multiplied by 3, then 12 is subtracted. The result is 6. What is the number?",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correct_answer": "6",
+    "explanation": "Let number = x. 3x - 12 = 6 →3x = 18 u8594  x = 6."
+  },
+  {
+    "id": "original_48",
+    "exam_type": "ssat-middle",
+    "question_type": "math",
+    "difficulty": "medium",
+    "concept": "fractions",
+    "question_text": "Which is greater: 5/6 or 7/9?",
+    "options": [
+      "5/6",
+      "7/9",
+      "They are equal",
+      "Cannot determine"
+    ],
+    "correct_answer": "5/6",
+    "explanation": "5/6 ≈0.833, 7/9 u8776  0.778. 5/6 > 7/9."
+  },
+  {
+    "id": "original_49",
+    "exam_type": "ssat-middle",
+    "question_type": "math",
+    "difficulty": "easy",
+    "concept": "ratios",
+    "question_text": "A map uses a scale of 1 inch = 20 miles. How many miles does 3.5 inches represent?",
+    "options": [
+      "60",
+      "65",
+      "70",
+      "75",
+      "80"
+    ],
+    "correct_answer": "70",
+    "explanation": "3.5 × 20 = 70 miles."
+  },
+  {
+    "id": "original_50",
+    "exam_type": "ssat-middle",
+    "question_type": "math",
+    "difficulty": "medium",
+    "concept": "sequences",
+    "question_text": "If a pattern continues as 2, 6, 18, 54, '85 what is the next number?",
+    "options": [
+      "108",
+      "120",
+      "144",
+      "162",
+      "180"
+    ],
+    "correct_answer": "162",
+    "explanation": "Pattern: multiply by 3 each time. 54 × 3 = 162."
+  }
+]

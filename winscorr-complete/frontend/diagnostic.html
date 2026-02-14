@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diagnostic Test - WinScorr</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700;900&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body class="diagnostic-page">
+    <!-- Header -->
+    <div class="test-header">
+        <div class="container">
+            <div class="test-header-content">
+                <div class="logo">
+                    <span class="logo-icon">🎯</span>
+                    <span class="logo-text">WinScorr</span>
+                </div>
+                <div class="test-progress-bar">
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="progress-fill"></div>
+                    </div>
+                    <div class="progress-text" id="progress-text">Question 1 of 20</div>
+                </div>
+                <div class="test-timer" id="timer">
+                    <span class="timer-icon">⏱️</span>
+                    <span id="timer-display">0:00</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Loading State -->
+    <div id="loading-state" class="loading-state">
+        <div class="container">
+            <div class="loading-content">
+                <div class="loading-spinner"></div>
+                <h2 class="loading-title">Preparing Your Diagnostic Test...</h2>
+                <p class="loading-subtitle">Selecting 20 questions from our bank of 50 original SSAT problems</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Test Container -->
+    <div id="test-container" class="test-container" style="display: none;">
+        <div class="container">
+            <div class="test-main">
+                <!-- Question Display -->
+                <div class="question-card">
+                    <div class="question-header">
+                        <div class="question-meta">
+                            <span class="question-concept" id="question-concept">Algebra</span>
+                            <span class="question-difficulty" id="question-difficulty">Medium</span>
+                        </div>
+                    </div>
+                    
+                    <div class="question-text" id="question-text">
+                        Loading question...
+                    </div>
+                    
+                    <div class="question-options" id="question-options">
+                        <!-- Options will be inserted here -->
+                    </div>
+                    
+                    <!-- AI Help Section (shown after answer) -->
+                    <div id="ai-help-section" class="ai-help-section" style="display: none;">
+                        <div class="ai-help-header">
+                            <div class="ai-help-icon">🤖</div>
+                            <h3 class="ai-help-title">AI Tutor</h3>
+                        </div>
+                        
+                        <!-- AI Explanation (for wrong answers) -->
+                        <div id="ai-explanation" class="ai-explanation" style="display: none;">
+                            <div class="ai-loading" id="ai-loading">
+                                <div class="ai-loading-spinner"></div>
+                                <span>AI tutor is analyzing your response...</span>
+                            </div>
+                            <div id="ai-explanation-text" class="ai-explanation-text"></div>
+                        </div>
+                        
+                        <!-- Hint Button (before answer) -->
+                        <div id="hint-section" class="hint-section" style="display: none;">
+                            <button id="hint-button" class="btn btn-secondary btn-sm">
+                                <span class="btn-icon">💡</span>
+                                Need a Hint?
+                            </button>
+                            <div id="hint-display" class="hint-display" style="display: none;"></div>
+                            <div id="hint-level" class="hint-level" style="display: none;">
+                                Hint <span id="current-hint-level">1</span> of 3
+                            </div>
+                        </div>
+                        
+                        <!-- Ask AI (conversational) -->
+                        <div id="chat-section" class="chat-section" style="display: none;">
+                            <button id="chat-toggle" class="btn btn-outline btn-sm">
+                                <span class="btn-icon">💬</span>
+                                Ask a Question
+                            </button>
+                            <div id="chat-container" class="chat-container" style="display: none;">
+                                <div id="chat-messages" class="chat-messages"></div>
+                                <div class="chat-input-container">
+                                    <input 
+                                        type="text" 
+                                        id="chat-input" 
+                                        class="chat-input" 
+                                        placeholder="Ask the AI tutor anything..."
+                                    >
+                                    <button id="chat-send" class="btn btn-primary btn-sm">Send</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Navigation -->
+                <div class="test-navigation">
+                    <button id="next-btn" class="btn btn-primary btn-lg" disabled>
+                        Next Question
+                        <span class="btn-arrow">→</span>
+                    </button>
+                    <button id="finish-btn" class="btn btn-primary btn-lg" style="display: none;">
+                        View Results
+                        <span class="btn-icon">✅</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Results Container (shown after test) -->
+    <div id="results-container" class="results-container" style="display: none;">
+        <!-- Results will be dynamically inserted here -->
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/api-client.js"></script>
+    <script src="js/fatigue-tracker.js"></script>
+    <script src="js/diagnostic-flow.js"></script>
+</body>
+</html>
