@@ -8,4 +8,9 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 EXPOSE 8000
 
-CMD ["gunicorn", "-w", "4", "-k", "uvicorn.workers.UvicornWorker", "app:app", "--bind", "0.0.0.0:$PORT", "--timeout", "120"]
+CMD exec gunicorn main:app \
+    --bind "[::]:$PORT" \
+    --workers 3 \
+    --worker-class uvicorn.workers.UvicornWorker \
+    --timeout 120 \
+    --log-level info
